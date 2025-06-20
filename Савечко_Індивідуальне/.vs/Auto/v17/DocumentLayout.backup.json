@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC_1\\source\\repos\\Auto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|C:\\Users\\PC_1\\source\\repos\\Auto\\auto\\welcome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\welcome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|C:\\Users\\PC_1\\source\\repos\\Auto\\auto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|c:\\users\\pc_1\\source\\repos\\auto\\auto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|C:\\Users\\PC_1\\source\\repos\\Auto\\auto\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|C:\\Users\\PC_1\\source\\repos\\Auto\\auto\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|C:\\Users\\PC_1\\source\\repos\\Auto\\auto\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|C:\\Users\\PC_1\\source\\repos\\Auto\\auto\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858BC769-B8F9-43A2-8D49-4EF7A4ED7748}|Auto\\Auto.csproj|solutionrelative:auto\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Welcome.aspx",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Welcome.aspx",
+              "RelativeDocumentMoniker": "Auto\\Welcome.aspx",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Welcome.aspx",
+              "RelativeToolTip": "Auto\\Welcome.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-13T15:32:04.42Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Auto\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Auto\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwGoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T17:38:14.32Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Auto\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Auto\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:38:01.971Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Auto\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Auto\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T15:55:20.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "Auto\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Models\\Sale.cs",
+              "RelativeToolTip": "Auto\\Models\\Sale.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:51:32.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Part.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Models\\Part.cs",
+              "RelativeDocumentMoniker": "Auto\\Models\\Part.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\Models\\Part.cs",
+              "RelativeToolTip": "Auto\\Models\\Part.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:55:40.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Auto\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\Auto\\Auto\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Auto\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:35:50.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
