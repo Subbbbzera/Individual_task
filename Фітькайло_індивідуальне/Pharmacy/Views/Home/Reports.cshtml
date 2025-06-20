@@ -1,0 +1,65 @@
+﻿@model List<Pharmacy.Models.MedicineReportViewModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Звіт про продажі</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <h1 class="logo">Аптечний Облік</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/Home/Index">Медикаменти</a></li>
+                    <li><a href="/Home/Reports">Звіти</a></li>
+
+                    @if (Session["UserEmail"] == null)
+                    {
+                        <li><a href="/Account/Login">Вхід</a></li>
+                        <li><a href="/Account/Register">Реєстрація</a></li>
+                    }
+                    else
+                    {
+                        <li>👤 @Session["UserName"]</li>
+                        <li><a href="/Account/Logout">Вийти</a></li>
+                    }
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Звіт про продажі медикаментів</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Назва медикаменту</th>
+                    <th>Кількість продажів</th>
+                    <th>Сума продажів (₴)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.MedicineName</td>
+                        <td>@item.PurchaseCount</td>
+                        <td>@item.TotalAmount.ToString("F2")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

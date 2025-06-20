@@ -1,0 +1,53 @@
+﻿@model Pharmacy.Models.Medicine
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Додати препарат</title>
+    <link href="~/Content/site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <h2>Додавання нового препарату</h2>
+
+    @using (Html.BeginForm("CreateMedicine", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+        <p>
+            @Html.LabelFor(m => m.Name, "Назва препарату")
+            @Html.TextBoxFor(m => m.Name)
+        </p>
+
+        <p>
+            @Html.LabelFor(m => m.Manufacturer, "Виробник")
+            @Html.TextBoxFor(m => m.Manufacturer)
+        </p>
+
+        <p>
+            @Html.LabelFor(m => m.Price, "Ціна")
+            @Html.TextBoxFor(m => m.Price, new { type = "number", step = "0.01" })
+        </p>
+
+        <p>
+            @Html.LabelFor(m => m.Quantity, "Кількість на складі")
+            @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control", type = "number", min = "0", required = "required" })
+            @Html.ValidationMessageFor(m => m.Quantity)
+        </p>
+
+        <p class="additional-info-container">
+            @Html.LabelFor(m => m.AdditionalInfo, "Додаткова інформація")
+            @Html.TextAreaFor(m => m.AdditionalInfo, new { placeholder = "Опис препарату" })
+            @Html.ValidationMessageFor(m => m.AdditionalInfo, "", new { @class = "validation-message" })
+        </p>
+
+        <p>
+            @Html.Label("Завантажити фото")
+            <input type="file" name="imageFile" accept="image/*" />
+        </p>
+
+
+        <p><input type="submit" value="Додати" /></p>
+    }
+
+</body>
+</html>

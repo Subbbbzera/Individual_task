@@ -1,0 +1,183 @@
+﻿@using Pharmacy.Helpers
+@model Pharmacy.Models.MedicinesListViewModel
+
+@{
+    Layout = null;
+    bool isDoctor = Session["IsDoctor"] != null && (bool)Session["IsDoctor"];
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Аптечний Облік</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="site-header2">
+        <div class="header-container2">
+            <h1 class="logo">Аптечний Облік</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="@Url.Action("Index", "Home")">Медикаменти</a></li>
+
+                    @if (isDoctor)
+                    {
+                        <li><a href="@Url.Action("Reports", "Home")">Звіти</a></li>
+                    }
+
+                    @if (Session["UserName"] != null)
+                    {
+                        <li><span>@Session["UserName"]</span></li>
+                        <li>
+                            @using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="exit">Вийти</button>
+                            }
+                        </li>
+                    }
+                    else
+                    {
+                        <li><a href="@Url.Action("Login", "Account")">Вхід</a></li>
+                        <li><a href="@Url.Action("Register", "Account")">Реєстрація</a></li>
+                    }
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <h2>Список медикаментів</h2>
+        </div>
+
+        <div class="actions">
+            @if (isDoctor)
+            {
+                <a href="@Url.Action("CreateMedicine", "Home")" class="button">Додати медикамент</a>
+            }
+            <a href="@Url.Action("PurchaseList", "Home")" class="button">Перелік покупок</a>
+        </div>
+
+        <div class="filter-form">
+            @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+            {
+                <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                    <div>
+                        <label for="selectedMedicine">Назва</label>
+                        <input type="text" name="selectedMedicine" id="selectedMedicine" class="form-control"
+                               value="@Model.SelectedMedicine" placeholder="Введіть назву" />
+                    </div>
+
+                    <div>
+                        <label for="selectedManufacturer">Виробник</label>
+                        <input type="text" name="selectedManufacturer" id="selectedManufacturer" class="form-control"
+                               value="@Model.SelectedManufacturer" placeholder="Введіть виробника" />
+                    </div>
+
+                    <div style="align-self: flex-end;">
+                        <button type="submit" class="button">Пошук</button>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div style="margin: 15px 0;">
+            <span>Сортувати за ціною:</span>
+            <a href="@Url.Action("Index", new {
+            selectedMedicine = Model.SelectedMedicine,
+            selectedManufacturer = Model.SelectedManufacturer,
+            sortOrder = Model.SortOrder == "price_asc" ? "price_desc" : "price_asc"
+        })"
+               class="button" style="padding: 6px 12px; font-size: 14px; margin-left: 10px;">
+                @if (Model.SortOrder == "price_asc")
+                {
+                    @:🔼 За зростанням
+                }
+                else if (Model.SortOrder == "price_desc")
+                {
+                    @:🔽 За спаданням
+                }
+                else
+                {
+                    @:🔼 За зростанням
+                }
+            </a>
+        </div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Назва</th>
+            <th>Виробник</th>
+            <th>Ціна</th>
+            <th>Кількість</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Medicines)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Manufacturer</td>
+                <td>@item.Price ₴</td>
+                <td>
+                    <span class="quantity-badge">@item.Quantity шт.</span>
+                </td>
+                <td>
+                    <div class="inline-buttons">
+                        <a href="@Url.Action("MedicineView", "Home", new { id = item.Id })" class="button info-button">Переглянути</a>
+
+                        @if (isDoctor)
+                        {
+                            <a href="@Url.Action("EditMedicine", "Home", new { id = item.Id })" class="button">Редагувати</a>
+                            <a href="@Url.Action("DeleteMedicine", "Home", new { id = item.Id })" class="button" onclick="return confirm('Видалити медикамент?');">Видалити</a>
+                        }
+
+                        @if (item.Quantity > 0)
+                        {
+                            <a href="@Url.Action("Buy", "Home", new { id = item.Id })" class="button buy-button">Купити</a>
+                        }
+                        else
+                        {
+                            <span class="button disabled">Немає в наявності</span>
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (!Model.Medicines.Any())
+{
+    <div  class="button disabled">
+        <p>Медикаменти не знайдено або всі відсутні в наявності.</p>
+    </div>
+}
+
+        
+
+    <div style="margin-top: 20px;">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Index", new
+        {
+            page = x,
+            selectedMedicine = Model.SelectedMedicine,
+            selectedManufacturer = Model.SelectedManufacturer,
+            sortOrder = Model.SortOrder
+        }))
+    </div>
+    </div>
+
+
+    <footer class="site-footer">
+
+        <p>Всі права захищені.</p>
+    </footer>
+
+
+</body>
+</html>

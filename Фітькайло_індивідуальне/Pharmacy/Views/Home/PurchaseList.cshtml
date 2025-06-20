@@ -1,0 +1,47 @@
+﻿@model List<Pharmacy.Models.Purchase>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Список покупок</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h2>Список покупок</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Покупець</th>
+                    <th>Адреса</th>
+                    <th>Назва препарату</th>
+                    <th>Ціна за одиницю</th>
+                    <th>Кількість</th>
+                    <th>Загальна сума</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Person</td>
+                        <td>@item.Address</td>
+                        <td>@item.Medicine.Name</td>
+                        <td>@item.Medicine.Price ₴</td>
+                        <td>@item.Quantity шт.</td>
+                        <td>@(item.Medicine.Price * item.Quantity) ₴</td>
+                        <td>@item.Date.ToString("dd.MM.yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

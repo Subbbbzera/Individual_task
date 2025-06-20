@@ -1,0 +1,41 @@
+﻿@model Pharmacy.Models.Medicine
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Інформація про препарат</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h2>Інформація про препарат</h2>
+
+        <div class="medicine-details">
+            <p><strong>Назва:</strong> @Model.Name</p>
+            <p><strong>Виробник:</strong> @Model.Manufacturer</p>
+            <p><strong>Ціна:</strong> @Model.Price ₴</p>
+            <p><strong>Кількість в наявності:</strong> @Model.Quantity</p>
+            @if (!string.IsNullOrWhiteSpace(Model.AdditionalInfo))
+            {
+                <p><strong>Додаткова інформація:</strong> @Model.AdditionalInfo</p>
+            }
+
+            @if (!string.IsNullOrWhiteSpace(Model.ImagePath))
+            {
+                <div>
+                    <img src="@Url.Content(Model.ImagePath)" alt="Фото препарату" style="max-width: 300px;" />
+                </div>
+            }
+
+        </div>
+    </div>
+
+    <a href="@Url.Action("Index", "Home")" class="back">Назад до списку</a>
+
+    </div>
+</body>
+</html>

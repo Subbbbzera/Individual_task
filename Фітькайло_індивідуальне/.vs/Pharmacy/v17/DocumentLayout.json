@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|c:\\users\\pc_1\\source\\repos\\\u0444\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|c:\\users\\pc_1\\source\\repos\\\u0444\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\pharmacy\\models\\medicines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A098F68-6BB6-4F7C-88E0-69CA2A34DEF2}|Pharmacy\\Pharmacy.csproj|solutionrelative:pharmacy\\models\\medicines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pharmacy\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Pharmacy\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T07:15:19.373Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Views\\Home\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "Pharmacy\\Views\\Home\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Views\\Home\\Welcome.cshtml",
+              "RelativeToolTip": "Pharmacy\\Views\\Home\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T15:16:31.371Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Pharmacy\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Pharmacy\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:42:56.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Pharmacy\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Pharmacy\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:03:09.366Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pharmacy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pharmacy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T08:26:48.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Pharmacy\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Models\\User.cs",
+              "RelativeToolTip": "Pharmacy\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:09:13.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "medicines.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Models\\medicines.cs",
+              "RelativeDocumentMoniker": "Pharmacy\\Models\\medicines.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Models\\medicines.cs",
+              "RelativeToolTip": "Pharmacy\\Models\\medicines.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:48:26.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "Pharmacy\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\PC_1\\source\\repos\\\u0424\u0456\u0442\u044C\u043A\u0430\u0439\u043B\u043E_\u0456\u043D\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043B\u044C\u043D\u0435\\Pharmacy\\Models\\Purchase.cs",
+              "RelativeToolTip": "Pharmacy\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T16:48:24.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
